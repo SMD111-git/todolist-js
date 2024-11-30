@@ -70,4 +70,10 @@ body{
     background-color:transparent;
     border:none;
     outline:none;
+    color:azure;
+    font-size: 18px;
+}
+.newtodoinput::placeholder{
+    color:hsl(233,14%,35%)
+
 }
