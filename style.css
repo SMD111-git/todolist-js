@@ -1,10 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 body{
     font-family: "Parkinsans", sans-serif;
     background-color: hsl(235,21%,11%);
     font-size: 18px;
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
      display: flex;
     justify-content: center;
 }
@@ -42,4 +44,26 @@ body{
     font-size: 35px;
     font-weight:bold;
     letter-spacing: 5px;
+}
+.new-todo{
+    background-color: rgb(25, 18, 88);
+    height:70px;
+    margin-top: 30px;
+    border-radius: 6px;
+    display: flex;
+}
+.check{
+    background-color:rgb(28, 13, 167) ;
+    width:70px;
+}
+.newtodoinput{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.newtodoinput form{
+    flex-grow: 1;
+}
+.newtodoinput input{
+    width:100%;
 }
